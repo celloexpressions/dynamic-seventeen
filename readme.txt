@@ -1,4 +1,4 @@
-# Dynamic Seventeen
+=== Dynamic Seventeen ===
 Contributors: celloexpressions
 Requires at least: 4.7
 Tested up to: 4.7
@@ -8,11 +8,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
 
 
-# Description
+== Description ==
 
 Twenty Seventeen child theme with a dynamic front page and page template. Showcase your content with dynamic multi-part pages integrating all content types in a unified experience. To make a page dynamic, use the "Dynamic Content" page template, then add a menu to the associated menu location to manage its content.
 
-# Installation
+== Installation ==
 
 1. In your admin dashboard, go to Appearance -> Themes and click the 'Add New' button.
 2. Type in Dynamic Seventeen in the search form and press the 'Enter' key on your keyboard.
@@ -20,7 +20,7 @@ Twenty Seventeen child theme with a dynamic front page and page template. Showca
 4. Go to https://codex.wordpress.org/Twenty_Seventeen for a guide on how to customize this theme.
 5. Navigate to Appearance > Customize in your admin panel and customize to taste.
 
-# Copyright
+== Copyright ==
 
 Dynamic Seventeen WordPress Child Theme, Copyright 2016 Nick Halsey
 Based on the Twenty Seventeen WordPress Theme, Copyright 2016 WordPress.org
@@ -58,12 +58,12 @@ Bundled header image, Copyright Alvin Engler
 License: CC0 1.0 Universal (CC0 1.0)
 Source: https://unsplash.com/@englr?photo=bIhpiQA009k
 
-# Changelog
+== Changelog ==
 
-## 1.0
+= 1.0 =
 * Initial release
 
-## Future Release Plans
+= Future Release Plans =
 The following items are planned for future releases:
 * Selective refresh previewing in the customizer, on a per-item level.
 * Visible edit shortcuts for each item in the customize preview.

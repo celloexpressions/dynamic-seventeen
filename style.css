@@ -1,0 +1,45 @@
+/*
+Theme Name: Dynamic Seventeen
+Author: Nick Halsey
+Author URI: http://nick.halsey.co/
+Description: Twenty Seventeen child theme with a dynamic front page and page template. Showcase your content with dynamic multi-part pages integrating all content types in a unified experience. To make a page dynamic, use the "Dynamic Content" page template, then add a menu to the associated menu location to manage its content.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: dynamic-seventeen
+Template: twentyseventeen
+Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Load parent theme styles. */
+@import url("../twentyseventeen/style.css");
+
+/* Adjust selectors for multi-part pages */
+.content-menu > article:not(.has-post-thumbnail),
+.content-menu > section:not(.has-post-thumbnail) {
+	border-top: 1px solid #ddd;
+}
+
+.colors-dark .content-menu > article:not(.has-post-thumbnail),
+.colors-dark .content-menu > section:not(.has-post-thumbnail) {
+	border-top-color: #444;
+}
+
+.content-menu .recent-posts .entry-header .edit-link {
+	/* Don't set a color here - the inherited color is fine. Otherwise match core behavior. */
+	display: inline-block;
+	font-size: 11px;
+	font-size: 0.6875rem;
+	margin-left: 1em;
+}
+
+.page-template-template-page-dynamic .single-featured-image-header {
+	display: none;
+}
+
+.page-template-template-page-dynamic.has-header-image .site-content {
+	padding-top: 0;
+}
