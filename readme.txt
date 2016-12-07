@@ -67,3 +67,4 @@ Source: https://unsplash.com/@englr?photo=bIhpiQA009k
 The following items are planned for future releases:
 * Selective refresh previewing in the customizer, on a per-item level.
 * Visible edit shortcuts for each item in the customize preview.
+* Add support for starter content, extending the Twenty Seventeen selections with a front page content menu. See https://core.trac.wordpress.org/ticket/39109.
