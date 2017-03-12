@@ -123,4 +123,4 @@ function dynamic_seventeen_custom_colors_css( $css, $hue, $saturation ) {
 }
 add_filter( 'twentyseventeen_custom_colors_css', 'dynamic_seventeen_custom_colors_css', 10, 3 );
 
-require_once( 'class-dynamic-seventeen-content-menu-walker.php' );
+require_once( get_stylesheet_directory() . '/class-dynamic-seventeen-content-menu-walker.php' );
