@@ -2,7 +2,7 @@
 Contributors: celloexpressions
 Requires at least: 4.7
 Tested up to: 4.7
-Version: 1.0
+Version: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, accessibility-ready, custom-colors, custom-header, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
@@ -22,7 +22,7 @@ Twenty Seventeen child theme with a dynamic front page and page template. Showca
 
 # Copyright
 
-Dynamic Seventeen WordPress Child Theme, Copyright 2016 Nick Halsey
+Dynamic Seventeen WordPress Child Theme, Copyright 2017 Nick Halsey
 Based on the Twenty Seventeen WordPress Theme, Copyright 2016 WordPress.org
 Dynamic Seventeen is distributed under the terms of the GNU GPL
 
@@ -60,10 +60,4 @@ Source: https://unsplash.com/@englr?photo=bIhpiQA009k
 
 # Changelog
 
-## 1.0
-* Initial release
-
-## Future Release Plans
-The following items are planned for future releases:
-* Selective refresh previewing in the customizer, on a per-item level.
-* Visible edit shortcuts for each item in the customize preview.
+See readme.txt.
