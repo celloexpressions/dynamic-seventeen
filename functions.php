@@ -3,6 +3,12 @@
  * Dynamic Seventeen theme functions.
  */
 
+// Enqueue parent stylesheet.
+function dynamic_seventeen_enqueue() {
+	wp_enqueue_style( 'twentyseventeen-parent-style', get_template_directory_uri() . '/style.css' );
+}
+add_action( 'wp_enqueue_scripts', 'dynamic_seventeen_enqueue' );
+
 // Register additional menu locations for dynamic content menus.
 // Note: this is unlikely to work seamlessly if/when it's possible to change a page template in the customizer.
 function dynamic_seventeen_after_setup_theme() {
