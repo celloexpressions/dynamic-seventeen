@@ -143,7 +143,7 @@ class Dynamic_Seventeen_Content_Menu_Walker extends Walker_Nav_Menu {
 							<?php
 								/* translators: %s: Name of current post */
 								the_content( sprintf(
-									__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ), // Identical to parent theme string.
+									__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'dynamic-seventeen' ), // Identical to parent theme string.
 									get_the_title()
 								) );
 							?>
