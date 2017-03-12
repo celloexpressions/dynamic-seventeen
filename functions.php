@@ -86,6 +86,16 @@ function dynamic_seventeen_customize_register( $wp_customize ) {
 		'section' => 'theme_options',
 		'active_callback' => 'dynamic_seventeen_option_active_callback',
 	) );
+
+	// Add help text to the static front page section.
+	$wp_customize->add_setting( 'dynamic_content_help', array() );
+	$wp_customize->add_control( 'dynamic_content_help', array(
+		'label' => __( 'Dymamic Front Page', 'dynamic-seventeen' ),
+		/** translators: %s is a link to the new menu section */
+		'description' => sprintf( __( 'To add additional and dynamic content to your front page, <a href="%s">add a new menu</a>, assign it to the "Front Page Content" location, and then add items to the menu.', 'dynamic-seventeen' ), "javascript:wp.customize.control('new_menu_name').focus()" ),
+		'type' => 'hidden',
+		'section' => 'static_front_page',
+	) );
 }
 add_action( 'customize_register', 'dynamic_seventeen_customize_register', 11 ); // After Twenty Seventeen.
 
