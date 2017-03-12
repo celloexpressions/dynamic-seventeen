@@ -88,6 +88,7 @@ class Dynamic_Seventeen_Content_Menu_Walker extends Walker_Nav_Menu {
 
 					<div class="entry-content">
 						<?php if ( '' !== $item->description ) {
+							/** This filter is documented in wp-includes/post-template.php */
 							echo apply_filters( 'the_content', $item->description );
 						} ?>
 					</div><!-- .entry-content -->
