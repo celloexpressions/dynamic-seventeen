@@ -90,6 +90,24 @@ function dynamic_seventeen_option_active_callback() {
 	return is_front_page() || is_page_template( 'template-page-dynamic.php' );
 }
 
+// Adjust the Twenty Seventeen starter content to show dynamic front page content by default.
+function dynamic_seventeen_starter_content_mods( $starter_content ) {
+	// Add a menu to the front page content location.
+	$starter_content['nav_menus']['front_page_content'] = array(
+		'name' => __( 'Top Menu', 'twentyseventeen' ),
+		'items' => array(
+			'{{homepage-section}}',
+			'page_about',
+			'page_blog',
+			'page_contact',
+		),
+	);
+	$starter_content['theme_mods'] = array();
+
+	return $starter_content;
+}
+add_filter( 'twentyseventeen_starter_content', 'dynamic_seventeen_starter_content_mods' );
+
 // Add child theme selectors for color schemes.
 function dynamic_seventeen_custom_colors_css( $css, $hue, $saturation ) {
 	$css .= '
