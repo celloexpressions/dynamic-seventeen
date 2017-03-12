@@ -32,8 +32,6 @@ function dynamic_seventeen_after_setup_theme() {
 	}
 
 	register_nav_menus( $dynamic_pages );
-
-	// @todo add support for starter content. Requires core filter, see https://core.trac.wordpress.org/ticket/39109.
 }
 add_action( 'after_setup_theme', 'dynamic_seventeen_after_setup_theme' );
 
