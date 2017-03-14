@@ -36,6 +36,9 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
 
+Every part of every file included in the theme is licensed under GPLv2 or later,
+including screenshot.png.
+
 The parent theme, Twenty Seventeen, bundles the following third-party resources:
 
 HTML5 Shiv v3.7.3, Copyright 2014 Alexander Farkas
