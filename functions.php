@@ -5,7 +5,7 @@
 
 // Enqueue parent stylesheet.
 function dynamic_seventeen_enqueue() {
-	wp_enqueue_style( 'twentyseventeen-parent-style', get_template_directory_uri() . '/style.css' );
+	wp_enqueue_style( 'dynamic-seventeen-parent-style', get_template_directory_uri() . '/style.css' );
 }
 add_action( 'wp_enqueue_scripts', 'dynamic_seventeen_enqueue' );
 
