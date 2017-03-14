@@ -110,7 +110,7 @@ function dynamic_seventeen_option_active_callback() {
 function dynamic_seventeen_starter_content_mods( $starter_content ) {
 	// Add a menu to the front page content location.
 	$starter_content['nav_menus']['front_page_content'] = array(
-		'name' => __( 'Top Menu', 'twentyseventeen' ),
+		'name' => __( 'Front Page Content', 'dynamic-seventeen' ),
 		'items' => array(
 			'{{homepage-section}}',
 			'page_about',
