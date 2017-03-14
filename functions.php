@@ -88,7 +88,9 @@ function dynamic_seventeen_customize_register( $wp_customize ) {
 	) );
 
 	// Add help text to the static front page section.
-	$wp_customize->add_setting( 'dynamic_content_help', array() );
+	$wp_customize->add_setting( 'dynamic_content_help', array(
+		'sanitize_callback' => '__return_false',
+	) );
 	$wp_customize->add_control( 'dynamic_content_help', array(
 		'label' => __( 'Dymamic Front Page', 'dynamic-seventeen' ),
 		/** translators: %s is a link to the new menu section */
