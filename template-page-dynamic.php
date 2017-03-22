@@ -17,7 +17,7 @@ get_header(); ?>
 		<?php // Show the static page content.
 		if ( have_posts() ) :
 			while ( have_posts() ) : the_post();
-				get_template_part( 'template-parts/page/content', 'front-page' );
+				get_template_part( 'template-parts/content', 'dynamic-page' );
 			endwhile;
 		else :
 			get_template_part( 'template-parts/post/content', 'none' );
